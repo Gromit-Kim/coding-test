@@ -1,10 +1,15 @@
 t = int(input())
 
-for i in range(t):
+for i in range(1, t + 1):
     a, b, c = map(int, input().split())
+    
     middle = (a + c) / 2
-    res = abs(middle - b)
-    if res != 0:
-        print("#{:.0f}".format(i+1), "{:.1f}".format(res))
+
+    if b == middle:
+        result = 0
+    elif b > middle:
+        result = b - middle
     else:
-        print("#{:.0f}".format(i+1), int(res))
+        result = middle - b
+    
+    print(f'#{i}', "{:.1f}".format(result))
