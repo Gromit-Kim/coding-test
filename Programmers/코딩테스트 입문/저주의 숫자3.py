@@ -17,5 +17,3 @@ def solution(n):
                 break
 
     return cur_num
-
-print(solution(15))
