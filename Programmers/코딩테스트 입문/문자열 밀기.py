@@ -7,10 +7,7 @@ def solution(A, B):
         return -1
     
     for i in range(len(A)):
-        print(A)
         if A == B:
             return i
         A = push_one_str(A)
     return -1
-
-print(solution("hello", "ohell"))  # 출력: 1
