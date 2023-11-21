@@ -7,7 +7,6 @@ def solution(array):
         else:
             dic[i] = 1
     
-    # answer는 가장큰 values를 가진 것의 key값
     max_val = max(dic.values())
     for key in dic.keys():
         if(dic[key] == max_val):
