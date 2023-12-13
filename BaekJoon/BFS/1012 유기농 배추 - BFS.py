@@ -4,7 +4,7 @@ dx = [0, 0, -1, 1] # 상하좌우
 dy = [-1, 1, 0, 0]
 
 def bfs(sx, sy, graph, visited):
-    q = deque([sx, sy])
+    q = deque([(sx, sy)])
     visited[sx][sy] = True
 
     while q:
