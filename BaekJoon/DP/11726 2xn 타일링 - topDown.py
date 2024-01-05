@@ -10,4 +10,4 @@ def f(n):
     dp[n] = n if n <= 2 else (f(n-1) + f(n-2))
     return dp[n]
 
-print(dp[n] % 10007)
+print(f(n) % 10007)
