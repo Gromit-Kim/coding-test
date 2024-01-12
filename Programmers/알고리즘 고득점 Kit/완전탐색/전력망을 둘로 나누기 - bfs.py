@@ -6,11 +6,8 @@ def bfs(v, board, visited, n):
     cnt = 1
     while q:
         c = q.popleft()
-        for i in range(1, n+1):
-            if i == c:
-                continue
-            n = i
-            if not visited[n] and n in board[c]:
+        for n in board[c]:
+            if not visited[n]:
                 q.append(n)
                 visited[n] = True
                 cnt += 1
@@ -22,13 +19,8 @@ def start(n, wires):
     for top1, top2 in wires:
         linked_board[top1].append(top2)
         linked_board[top2].append(top1)
-    cnt1, cnt2 = 0, 0
-    for i in range(1, n+1):
-        if not visited[i]:
-            if cnt1 == 0: # def bfs(v, board, visited, n):
-                cnt1 = bfs(i, linked_board, visited, n)
-            else:
-                cnt2 = bfs(i, linked_board, visited, n)
+    cnt1 = bfs(1, linked_board, visited, n)
+    cnt2 = sum(not v for v in visited)
     return abs(cnt1-cnt2)
     
 def solution(n, wires):
