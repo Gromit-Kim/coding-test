@@ -20,7 +20,7 @@ def start(n, wires):
         linked_board[top1].append(top2)
         linked_board[top2].append(top1)
     cnt1 = bfs(1, linked_board, visited, n)
-    cnt2 = sum(not v for v in visited)
+    cnt2 = sum(not v for v in visited) - 1
     return abs(cnt1-cnt2)
     
 def solution(n, wires):
