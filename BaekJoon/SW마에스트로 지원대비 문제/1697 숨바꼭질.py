@@ -1,7 +1,7 @@
 from collections import deque
 n, k = map(int, input().split())
 t = k - n # 목표지점까지의 거리
-visited = [0] * (100000)
+visited = [0] * (100001)
 if t <= 0:
     print(-t)
 else:
