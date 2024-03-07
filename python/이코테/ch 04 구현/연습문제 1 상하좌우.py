@@ -8,8 +8,8 @@ plans = input().split()
 x, y = 1, 1 #  현재
 for plan in plans:
     i = dic[plan]
-    nx, ny = x +dx[i] , y+ dy[i]
+    nx, ny = x + dx[i] , y+ dy[i]
     if nx < 1 or ny < 1 or nx > n or ny > n:
         continue
     x, y = nx, ny
-print(x, y)
+print(y, x)
