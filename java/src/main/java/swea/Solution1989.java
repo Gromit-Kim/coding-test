@@ -1,4 +1,4 @@
-package org.swexpertacademy;
+package swea;
 
 import java.io.IOException;
 import java.util.Scanner;
