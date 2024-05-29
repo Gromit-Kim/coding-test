@@ -1,11 +1,10 @@
 package programmers;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-public class L1_Solution_26 {
+public class L2_Solution_26 {
     public int[] solution(String s) {
         String[] parts = s.substring(2, s.length() - 2).replace("},{", " ").split(" ");
 
