@@ -1,12 +1,26 @@
 ## Practice for Coding Test
 
-- 코딩테스트 준비를 위한 공간
-- 사용 언어 : python, java
-- 학습 사이트 : 백준, 프로그래머스, SWEA
+코딩테스트 준비를 위한 공간</br>
+겸사겸사 각 언어도 꼼꼼히 학습하기
 
-## Java
+### Solve Space
 
-| 제목 | 학습내역 |
-|:---|:----:|
-|    | [📗]() |
-|    |      |
+#### Site
+
+<a href="https://www.acmicpc.net/" target="_blank"><img src="https://img.shields.io/badge/BAEKJOON-007396?style=flat-square&logoColor=white"></a>
+<a href="https://programmers.co.kr/" target="_blank"><img src="https://img.shields.io/badge/Programmers-b2c0cc?style=flat-square&logoColor=white"></a>
+<a href="https://swexpertacademy.com/main/main.do" target="_blank"><img src="https://img.shields.io/badge/SWEA-4590E3?style=flat-square&logoColor=white"></a>
+
+#### Language
+
+<a href="#" target="_blank"><img src="https://img.shields.io/badge/java-007396?style=flat-square&logo=OpenJDK&logoColor=white"></a>
+<a href="#" target="_blank"><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/></a>
+
+### Study
+
+#### Java
+
+| 제목                                             |             학습내역             |
+|:-----------------------------------------------|:----------------------------:|
+| casting - primitive casting과 reference casting | [📗](./java/docs/casting.md) |
+|                                                |                              |
