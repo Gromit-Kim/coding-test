@@ -3,7 +3,7 @@
 코딩테스트 준비를 위한 공간</br>
 겸사겸사 각 언어도 꼼꼼히 학습하기
 
-### Solve Space
+## Solve Space
 
 #### Site
 
@@ -16,7 +16,7 @@
 <a href="#" target="_blank"><img src="https://img.shields.io/badge/java-007396?style=flat-square&logo=OpenJDK&logoColor=white"></a>
 <a href="#" target="_blank"><img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=Python&logoColor=white"/></a>
 
-### Study
+## Study
 
 #### Java
 
