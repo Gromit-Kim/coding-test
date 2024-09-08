@@ -9,7 +9,7 @@
 
 <a href="https://www.acmicpc.net/" target="_blank"><img src="https://img.shields.io/badge/BAEKJOON-007396?style=flat-square&logoColor=white"></a>
 <a href="https://programmers.co.kr/" target="_blank"><img src="https://img.shields.io/badge/Programmers-b2c0cc?style=flat-square&logoColor=white"></a>
-<a href="https://swexpertacademy.com/main/main.do" target="_blank"><img src="https://img.shields.io/badge/SWEA-4590E3?style=flat-square&logoColor=white"></a>
+<a href="https://swexpertacademy.com/main/main.do" target="_blank"><img src="https://img.shields.io/badge/SW Expert Academy-4590E3?style=flat-square&logoColor=white"></a>
 
 #### Language
 
