@@ -64,3 +64,45 @@
   ```
 
 ### Reference type's casting
+#### 업 캐스팅
+- 하위 클래스가 상위 클래스로 돌리는 것
+- 동적 다형성
+- 각자 자신에게 구현된 것을 사용하게 하려고(오버라이딩) 사용함
+```java
+class Parent{
+    void show(){
+        System.out.println("부모 클래스의 show() 호출");
+    }
+}
+
+class Child extends Parent{
+    @Override
+    void show(){
+        System.out.println("자식 클래스의 show() 호출");
+    }
+}
+
+class Main{
+    public static void main(String[] args){
+        Parent obj = new Child(); // 자식 클래스를 참조하는 부모 클래스 obj
+        obj.show(); // child 클래스의 show()가 호출됨
+    }
+}
+```
+#### 다운 캐스팅
+- 하위 클래스 유형이 부모 클래스의 객체를 참조하는 것
+- 컴파일러 오류 발생: ClassCastingException이 runtime exception으로 발생한다.
+- instanceof 연산자를 사용해야만 가능하고
+- 이미 업 캐스팅된 객체는 다운 캐스팅만 수행 가능하다.
+- 평소에는 업 캐스팅을 통해서 특정 함수의 사용을 막고 있다가 필요할 때만 다운캐스팅을 통해서 접근하기도 한다. (admin만 사용할 수 있는 일이 있거나 등)
+```java
+class Main{
+    public static void main(String[] args){
+        Parent p = new Child(); // upcasting
+        
+        // Child c = new Parent(); // downcasting 시도 -> compile error
+        
+        Child c = (Child)p; // p의 본체(참조하는 것)는 Child 였으므로 다운 캐스팅 성공
+    }
+}
+```
