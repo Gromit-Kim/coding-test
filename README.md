@@ -23,4 +23,5 @@
 | 제목                                             |             학습내역             |
 |:-----------------------------------------------|:----------------------------:|
 | casting - primitive casting과 reference casting | [📗](./java/docs/casting.md) |
-|                                                |                              |
+| stream                                         | [📗](./java/docs/stream.md)  |
+| String, StringBuilder 메소드                      | [📗](./java/docs/String.md)  |
