@@ -25,3 +25,12 @@
 | casting - primitive casting과 reference casting | [📗](./java/docs/casting.md) |
 | stream                                         | [📗](./java/docs/stream.md)  |
 | String, StringBuilder 메소드                      | [📗](./java/docs/String.md)  |
+| sort                                           |                              |
+| chars method                                   |                              |
+| copy (array 관련도)                               |                              |
+| regex                                          |   [📗](./java/docs/regex.md)   |
+| reverse                                        |                              |
+| string to chars, visa versa                    |                              |
+| list to array, visa versa                      |                              |
+| split(del, limit)                              |                              |
+| Set, Map, LinkedHashSet                        |                              |
