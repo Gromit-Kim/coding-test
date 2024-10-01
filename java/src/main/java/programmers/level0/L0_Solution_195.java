@@ -6,7 +6,7 @@ public class L0_Solution_195 {
 
     public int[][] solution(int n) {
         int[][] answer = new int[n][n];
-        boolean[][] visited = new boolean[][];
+        boolean[][] visited = new boolean[n][n];
 
         dfs(0, 0, 0, answer, visited, 1, n);
 
