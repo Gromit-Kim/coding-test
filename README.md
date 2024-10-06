@@ -20,17 +20,18 @@
 
 #### Java
 
-| 제목                                             |             학습내역             |
-|:-----------------------------------------------|:----------------------------:|
-| casting - primitive casting과 reference casting | [📗](./java/docs/casting.md) |
-| stream                                         | [📗](./java/docs/stream.md)  |
-| String, StringBuilder 메소드                      | [📗](./java/docs/String.md)  |
-| sort                                           |   [📗](./java/docs/Sort.md)    |
-| chars method                                   |                              |
-| copy (array 관련도)                               |                              |
-| regex                                          |  [📗](./java/docs/regex.md)  |
-| reverse                                        |                              |
-| string to chars, visa versa                    |                              |
-| list to array, visa versa                      |                              |
-| split(del, limit)                              |                              |
-| Set, Map, LinkedHashSet                        |                              |
+| 제목                                             |               학습내역               |
+|:-----------------------------------------------|:--------------------------------:|
+| casting - primitive casting과 reference casting |   [📗](./java/docs/casting.md)   |
+| stream                                         |   [📗](./java/docs/stream.md)    |
+| String, StringBuilder 메소드                      |   [📗](./java/docs/String.md)    |
+| sort                                           |    [📗](./java/docs/Sort.md)     |
+| chars method                                   |                                  |
+| copy (array 관련도)                               |                                  |
+| regex                                          |    [📗](./java/docs/regex.md)    |
+| reverse                                        |                                  |
+| string to chars, visa versa                    |                                  |
+| list to array, visa versa                      |                                  |
+| split(del, limit)                              |                                  |
+| Set, Map, LinkedHashSet                        |                                  |
+| `nCr`                                          | [📖](./java/docs/combination.md) |
