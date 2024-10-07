@@ -35,3 +35,4 @@
 | split(del, limit)                              |                                  |
 | Set, Map, LinkedHashSet                        |                                  |
 | `nCr`                                          | [📖](./java/docs/combination.md) |
+| Stack                                          |     [📗](./java/docs/Stack.md)     |
