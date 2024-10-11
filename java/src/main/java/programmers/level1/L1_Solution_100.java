@@ -56,34 +56,34 @@ public class L1_Solution_100 {
         return 0; // 동일하면 선물 받지 않음
     }
 
-}
+    class Info {
+        public String name;
+        public int stats = 0; // 준선물 - 받은 선물
+        public Map<String, Integer> map; // 친구들에게 선물 준 기록
 
-class Info {
-    public String name;
-    public int stats = 0; // 준선물 - 받은 선물
-    public Map<String, Integer> map; // 친구들에게 선물 준 기록
-
-    public Info(String name, String[] friends) {
-        this.name = name;
-        this.map = new HashMap<>(friends.length - 1);
-        for (String friend : friends) {
-            if (!friend.equals(name)) {
-                map.put(friend, 0);
+        public Info(String name, String[] friends) {
+            this.name = name;
+            this.map = new HashMap<>(friends.length - 1);
+            for (String friend : friends) {
+                if (!friend.equals(name)) {
+                    map.put(friend, 0);
+                }
             }
         }
-    }
 
-    public void give(String to) {
-        this.stats += 1;
-        map.put(to, map.get(to) + 1);
-    }
+        public void give(String to) {
+            this.stats += 1;
+            map.put(to, map.get(to) + 1);
+        }
 
-    public void recv(String from) {
-        this.stats -= 1;
-    }
+        public void recv(String from) {
+            this.stats -= 1;
+        }
 
-    public int getGiftsTo(String friend) {
-        return map.getOrDefault(friend, 0);
+        public int getGiftsTo(String friend) {
+            return map.getOrDefault(friend, 0);
+        }
+
     }
 
 
