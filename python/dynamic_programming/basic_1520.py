@@ -5,7 +5,7 @@ def recur(y, x):
     if dp[y][x] != -1:
         return dp[y][x]
     
-    if y == y-1 and x == x -1:
+    if y == n-1 and x == m -1:
         return 1
     
     route = 0
