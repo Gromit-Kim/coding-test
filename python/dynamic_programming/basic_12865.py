@@ -13,6 +13,6 @@ def recur(idx, weight):
 
 a, b = map(int, input().split())
 items = [list(map(int, input().split())) for _ in range(a)]
-dp = [[-1 for _ in range(100_001)] for _ in range(a)] # dp[i][j]: i번째 물건일 때 j 무게일 때 가치?
+dp = [[-1 for _ in range(100_001)] for _ in range(a)] # dp[i][j]: i번째 아이템부터 시작해서 무게 j상태에서 선택가능한 최대 가치
 recur(0, 0)
 print(max(dp))
